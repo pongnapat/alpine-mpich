@@ -2,7 +2,7 @@ FROM armhf/alpine:3.4
 # In case the main package repositories are down, use the alternative base image:
 # FROM gliderlabs/alpine:3.4
 
-MAINTAINER Nikyle Nguyen <NLKNguyen@MSN.com>
+MAINTAINER Pongnapat
 
 ARG REQUIRE="sudo build-base"
 RUN apk update && apk upgrade \
