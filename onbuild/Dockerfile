@@ -1,4 +1,4 @@
-FROM pongnapat/alpine-mpich:latest
+FROM vippo/alpine-mpich:latest
 
 USER root
 
